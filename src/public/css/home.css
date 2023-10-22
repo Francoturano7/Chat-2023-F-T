@@ -39,6 +39,7 @@ html{
 }
 
 .titulos{
+    font-size: 30px;
     overflow: hidden;
     background-color: darkcyan;
     color: white;
