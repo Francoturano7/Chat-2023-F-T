@@ -7,7 +7,7 @@ import{Server} from "socket.io"
 
 import { viewsRouter } from "./routes/views.routes.js"
 
-const port=8080
+const port= procces.env.PORT || 8080
 const app=express()
 
 //midlewares
